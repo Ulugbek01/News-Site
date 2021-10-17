@@ -1,0 +1,208 @@
+/* Main styles */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: ;
+}
+
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+.banner-title {
+  width: 127px;
+  height: 44px;
+  background-color: #19181F;
+  color: #fff;
+  text-align: center;
+  line-height: 44px;
+  font-weight: 600;
+}
+
+.main-section {
+  background-color: #e5e5e5;
+  padding: 30px 0 40px;
+}
+
+/*  Main header section */
+.main-header {
+  display: flex;
+  height: 60px;
+  background-color: #fff;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main-header__logo a {
+  text-decoration: none;
+  color: #313131;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.main-navigation__items {
+  display: flex;
+  width: 500px;
+}
+
+.main-navigation__items li {
+  list-style: none;
+  margin-right: 40px;
+}
+
+.main-navigation__items a {
+  text-decoration: none;
+  color: #000421;
+}
+
+.main-header__contact {
+  display: flex;
+  justify-content: space-between;
+  width: 220px;
+}
+
+.phone-number a {
+  text-decoration: none;
+  color: #000421;
+}
+
+.main-header__contact select {
+  border: none;
+}
+
+/* Main banner styles */
+.main-banner {
+  background-image: url(../image/Mask\ Group\ 1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+  background-position: center;
+  position: relative;
+}
+.main-banner__title {
+  position: absolute;
+  top: 40px;
+  right: 40px;
+}
+
+.banner-discription__text {
+  position: absolute;
+  left: 40px;
+  bottom: 40px;
+  font-weight: 700;
+  color: #fff;
+  line-height: 28px;
+  font-size: 24px;
+}
+
+/* Main cards styles */
+
+.main-messages {
+  padding-top: 30px;
+}
+
+.main-message__cards {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.main-message__card {
+  width: 31.5%;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.main-message__image img {
+  width: 100%;
+}
+
+.banner-title {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.card-text {
+  font-size: 18px;
+  font-weight: 600;
+  color: #19181F;
+  line-height: 27px;
+}
+
+.card-info {
+  display: flex;
+  margin-top: 20px;
+  align-items: center;
+  font-size: 15px;
+}
+
+.card-number__views {
+  margin-left: 20px;
+}
+
+.main-card__link {
+text-align: center;
+margin-top: 20px;
+}
+.main-card__link a{
+  text-decoration: none;
+  background-color: #313131;
+  color: #fff;
+  padding: 15px 30px;
+}
+
+/* Footer styles */
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 0;
+}
+
+.footer-title {
+  width: 50%;
+}
+
+.footer-additional {
+  width: 15%;
+}
+
+.footer-download__section {
+  width: 25%;
+}
+
+.footer-menu__title{
+  text-decoration: none;
+  color: #313131;
+  font-weight: 700;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.footer-logo a{
+text-decoration: none;
+color: #313131;
+}
+
+.footer-text {
+  line-height: 24px;
+  margin-bottom: 20px;
+}
+
+.social-networks i {
+  font-size: 28px;
+}
+
+.footer-additional__items li {
+  list-style: none;
+  line-height: 24px;
+}
+
+.footer-additional__items a {
+  color: #313131;
+}
